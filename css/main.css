@@ -19,6 +19,24 @@
 p {
      font-size: 18px;
 }
+body{
+     background-color: var(--Almost_White);
+}
+nav{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     height: 80px;
+     padding: 5px 10px;
+}
+
+.mainlinks{
+     transform: translateX(-75%);
+}
+.mainlinks a{
+     padding: 5px 34px;
+     text-decoration: none;
+}
 
 
 
