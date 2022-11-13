@@ -16,29 +16,35 @@
      padding:0;
      box-sizing: border-box;
 }
-p {
-     font-size: 18px;
-}
+
 body{
      background-color: var(--Almost_White);
 }
+
+p {font-size: 18px;}
+
 nav{
-     display: flex;
-     flex-direction: row;
-     justify-content:space-between;
-     height: 80px;
-     padding: 5px 10px;
+ height: 80px;
+padding-top: 20px;
+display: flex;
 }
 
-.mainlinks{
-     transform: translateX(-75%);
-}
-.mainlinks a{
-     padding: 5px 34px;
+
+nav a {
+     padding: 0 40px;
      text-decoration: none;
 }
+ .credential {
+     position: fixed;
+     right   : 0px;
+  
+ 
+ }
+ .credential a {
 
-
+ 
+ }
+ 
 
 
 
