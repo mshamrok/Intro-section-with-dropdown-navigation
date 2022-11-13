@@ -1,67 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Tajawal:wght@300;400;500&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Tajawal:wght@300;400;500&display=swap');
 
 
-:root{
-     --ffEpilogue:  font-family: 'Epilogue', sans-serif;
-     --fw500: font-weight:500px;
-     --fw700: font-weight:700px;
+     :root{
+     --ffEpilogue: 'Epilogue', sans-serif;
+     --fw500:500px;
+     --fw700:700px;
      /* colors */
      --Almost_White: hsl(0, 0%, 98%);
      --Medium_Gray: hsl(0, 0%, 41%);
      --Almost_Black: hsl(0, 0%, 8%);
-}
+     }
 
-*{
+     *{
      margin:0;
      padding:0;
      box-sizing: border-box;
-}
+     }
 
-body{
+     body{
      background-color: var(--Almost_White);
      height: 100vh;
-     width: 100vw;
-}
+     max-width: 100vw;
+     overflow: hidden;
+     }
 
-p {font-size: 18px;}
+     p {font-size: 18px;}
 
-nav{
- height: 100px;
-padding-top: 30px;
-display: flex;
-padding-left: 50px;
-}
+     nav{
+     height: 84px;
+     width:1440px ;
+     padding-top: 30px;
+     display: flex;
+     padding-left: 50px;
 
+     }
+     .logo{
+          margin-right: 40px;
+     }
+    
 
-nav a {
-     padding: 0 40px;
+     nav a {
+     padding: 0 20px;
      text-decoration: none;
-}
- .credential {
-     position: fixed;
-     right   : 0px;
- }
+     font-family: var(--ffEpilogue);
+     font-weight: var(--fw500);
+     color: var(--Medium_Gray)
 
- 
-.container{
+     }
+
+     nav a:nth-child(1){
+          margin-left: 60px;
+     }
+     nav a svg{
+     margin-left: 5px;;
+     }
+     .credential {
+     position: fixed;
+     right   : 30px;
+     }
+
+     .credential :nth-child(2){
+     border: 2px solid gray;
+     padding: 10px 20px ;
+     border-radius: 12px;
+     }
+
+
+     .container{
      display: flex;
      flex-direction:row-reverse;
-     margin: 30px 150px;
-     gap: 100px;
+     justify-content: center;
+     margin-top: 20px ;
+     margin-left: 170px;
+     margin-right: 200px;
+     gap:50px;
+     }
+     .right_section {
+     width:40%;
+     float: left;
+     }
+     .right_section img {
+     width:522px;
+     
+     }
+     .left_section{
+     min-width:50%;
+     padding-top: 110px;
+     }
+     .left_section p:nth-child(1),.left_section p:nth-child(2){
+       font-size: 5rem;
+       font-weight:900;
+       font-family: var(--ffEpilogue);
+     }
+     .left_section p:nth-child(3){
+          max-width: 70%;
+          margin-top: 70px;
+          font-family: var(--ffEpilogue);
+          color: var(--Medium_Gray);
+          line-height: 1.6;
+          margin-left: 5px;
+     }
+.btn{
+     width: 163px;
+     height: 56px;
+     border-radius: 12px;
+     background-color: var(--Almost_Black);
+     cursor: pointer;
+     font-weight: var(--fw500);
+     font-family: var(--ffEpilogue);
+     font-size: 1.0rem;
+     margin-top: 70px;;
 }
-.right_section {
-     width:50%;
-}
-.right_section img {
-     width:500px;
-    
+.btn a{
+     text-decoration: none;
+     color: var(--Almost_White);
+     font-size: 1.0rem;
 }
 
+.sponsoers{
+     margin-top: 100px;
+display: flex;
+justify-content:left;
+gap:15px;
+}
+     /* The designs were created to the following widths:
 
-/* The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px */
+     - Mobile: 375px
+     - Desktop: 1440px */
 
 
 
