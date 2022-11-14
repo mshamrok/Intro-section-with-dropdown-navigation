@@ -56,7 +56,7 @@
      .nav a:nth-child(1){
           margin-left: 60px;
      }
-     .nav a svg{
+     nav a svg{
      margin-left: 5px;;
      }
      .credential {
